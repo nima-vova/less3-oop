@@ -1,2 +1,2 @@
 # less3-oop
-lesson 3 geethub oop  
+Library for the online store. Modules for work with the database, forms processing (validation and verification of sql injection).
