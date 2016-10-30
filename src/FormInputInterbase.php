@@ -13,5 +13,5 @@
       /**
        * @param $var
        */
-   public function emailValidator();
+   public function sqlInject();
 }

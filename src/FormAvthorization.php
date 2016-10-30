@@ -1,6 +1,8 @@
 <?php
 
-class FormInputInterbase implements FormInputInterbase
+namespace Vendor\Moduls;
+
+class FormAvthorization implements FormInputInterbase
 {
     /**
      * @var string
@@ -28,15 +30,11 @@ class FormInputInterbase implements FormInputInterbase
          */
     }
 
-    public function emailValidator()
+    public function sqlInject()
     }
 
     /**
     * @param $var
     */
     {
-
-
-
-
 }
