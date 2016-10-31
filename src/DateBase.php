@@ -2,21 +2,21 @@
 
 namespace Vendor\Moduls;
 
-abstract class DataBase
+abstract class DateBase
 {
     /**
-    * @var string
-    */
+     * @var string
+     */
     public $host;
 
     /**
-    * @var string
-    */
+     * @var string
+     */
     public $user;
 
     /**
-    * @var string
-    */
+     * @var string
+     */
     public $password;
 
     /**
@@ -29,18 +29,16 @@ abstract class DataBase
      */
     abstract public function selectDB();
 
-
     /**
      * @param string $host,$user,$password,$dbName
-    */
-    public function connectBD($host,$user,$password,$dbName)
+     */
+    public function connectBD($host, $user, $password, $dbName)
     {
-    $this->host=$host;
-    $this->user=$user;
-    $this->password=$password;
-    $this->dbName=$dbName;
+        $this->host = $host;
+        $this->user = $user;
+        $this->password = $password;
+        $this->dbName = $dbName;
 
     //Connect to mysql database
-
     }
 }

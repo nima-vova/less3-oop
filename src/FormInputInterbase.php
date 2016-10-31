@@ -1,17 +1,16 @@
 <?php
 
-   namespace Vendor\Moduls;
+namespace Vendor\Moduls;
 
-   interface FormInputInterbase
+interface FormInputInterbase
 {
-/**
-* @param $var
-*/
+    /**
+    * @param $var
+    */
    public function emailValidator();
 
-
-      /**
-       * @param $var
-       */
+   /**
+    * @param $var
+    */
    public function sqlInject();
 }
